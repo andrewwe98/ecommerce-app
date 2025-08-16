@@ -1,6 +1,15 @@
 {
+  "name": "ecommerce-app",
+  "homepage": "https://yourusername.github.io/ecommerce-app",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "tailwindcss": "^4.1.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }
